@@ -1,145 +1,24 @@
-# Car Parking Simulator
+# Sprint 6: Rendering
 
+## Overview
 
+This final sprint focused on the visual polish and rendering optimization of the Car Parking Simulator. Objectives included enhancing graphical fidelity through advanced lighting, post-processing effects, and ensuring smooth performance across target platforms. The goal was to deliver a visually appealing and immersive experience.
 
-A university game programming assignment focusing on a high-precision, mechanics-driven driving architecture for a car parking simulation experience.
+## Deliverables
 
+*   **Lighting Enhancements:** Implementation of global illumination, reflections, and dynamic lighting for realistic scenes.
+*   **Post-Processing Effects:** Integration of effects such as bloom, depth of field, color grading, and anti-aliasing.
+*   **Performance Optimization:** Profiling and optimizing rendering pipelines to maintain target frame rates on mobile and PC.
+*   **UI/HUD Integration:** Final integration and styling of the user interface and heads-up display elements.
 
+## Progress
 
-## Project Overview
+The game's visual presentation has been significantly enhanced, with optimized rendering settings and a suite of post-processing effects applied. Performance targets are being met on initial test configurations. The UI is fully integrated and visually consistent.
 
+## Screenshots
 
+![Sprint 6 Rendering Screenshot 1](screenshots/sprint6_rendering_01.png)
+*Description: In-game screenshot showcasing enhanced lighting and post-processing effects in a parking environment.*
 
-This project implements a "Car Parking Simulator" as a university assignment. The core objective is to develop a game that emphasizes realistic driving physics, precise vehicle control, and spatial awareness within various parking scenarios. The game is built using the Unity Engine and C#.
-
-
-
-## Gameplay Screenshots
-
-
-
-![Driving School](gameplay_driving_school.png)
-
-*Description: Beginner course in the driving school scenario, featuring cone navigation and basic parking.*
-
-
-
-![Urban Garage](gameplay_urban_garage.png)
-
-*Description: Advanced parking challenge in a multi-level urban concrete garage.*
-
-
-
-![Industrial Port](gameplay_industrial_port.png)
-
-*Description: High-stakes logistics parking in an industrial port area during sunset.*
-
-
-
-![Gameplay UI](gameplay_ui_hud.png)
-
-*Description: Detailed view of the gameplay HUD, including speedometer, mini-map, and scoring system.*
-
-
-
-## Features
-
-
-
-*   **Realistic Vehicle Physics:** Implementing accurate car handling, braking, and acceleration.
-*   
-*   **Diverse Environments:** Multiple acts simulating different parking challenges (e.g., driving school, urban valet, industrial logistics).
-*   
-*   **Career Progression:** A structured three-phase career mode with increasing difficulty.
-*   
-*   **Vehicle Customization:** Options for upgrading vehicle performance and aesthetics.
-*   
-*   **Scoring System:** Rewarding players based on parking precision, speed, and minimal damage.
-*   
-
-
-## Repository Structure
-
-
-
-This repository is organized to reflect the development sprints and key project assets:
-
-
-
-```
-
-CarParkingSimulator/
-
-│
-
-├── Assets/                  # Unity project assets (models, textures, prefabs, etc.)
-
-├── Docs/                    # Project documentation (reports, installation guide, design docs)
-
-├── Scripts/                 # Core C# scripts for game logic
-
-├── Sprint1_Modeling/        # Documentation and assets related to 3D modeling sprint
-
-├── Sprint2_Texturing/       # Documentation and assets related to texturing sprint
-
-├── Sprint3_Importing/       # Documentation and assets related to asset importing sprint
-
-├── Sprint4_LevelDesign/     # Documentation and assets related to level design sprint
-
-├── Sprint5_Scripting/       # Documentation and assets related to scripting sprint
-
-├── Sprint6_Rendering/       # Documentation and assets related to rendering and post-processing sprint
-
-├── README.md                # This file
-
-├── LICENSE                  # Project license information
-
-└── .gitignore               # Git ignore rules for Unity projects
-
-```
-
-
-
-## Installation Guide
-
-
-
-Refer to the `Docs/Installation Guide.md` for detailed instructions on setting up and running the project.
-
-
-
-## Project Report
-
-
-
-A comprehensive `Docs/Project Report.md` is available, detailing the project's design, implementation, challenges, and outcomes, suitable for academic submission.
-
-
-
-## Development Sprints
-
-
-
-Each sprint folder contains specific details, progress, and relevant assets for that development phase. Please refer to the individual `README.md` files within each sprint folder for more information.
-
-
-
-## Contributing
-
-
-
-This repository is primarily for academic submission. For any inquiries, please contact the project authors.
-
-
-
-## License
-
-
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-
-
-
-
-
+![Sprint 6 Rendering Screenshot 2](screenshots/sprint6_rendering_02.png)
+*Description: Screenshot of the game's UI/HUD elements integrated into the gameplay view, demonstrating visual polish.*
